@@ -21,7 +21,7 @@ This is the pytorch implementation of **Aesthetic-Aware Image Style Transfer** [
 python app.py
 ```
 
-## Huggingspace
+## Huggingface spaces
 https://huggingface.co/spaces/nicole-ocampo/digimap-mp
 
 ## Citation
