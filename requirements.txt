@@ -1,4 +1,4 @@
 torchvision
-torch
 Pillow
-gradio
+torch==1.10.2+cpu
+gradio==2.8.1
