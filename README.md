@@ -1,14 +1,3 @@
----
-title: AAMOBST
-emoji: 🛋
-colorFrom: gray
-colorTo: yellow
-sdk: gradio
-app_file: app.py
-pinned: false
-license: mit
----
-
 # Aesthetic-Aware Image Style Transfer
 
 by Zhiyuan Hu, Jia Jia, Bei Liu, Yaohua Bu and Jianlong Fu
