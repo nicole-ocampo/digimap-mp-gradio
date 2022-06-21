@@ -8,7 +8,7 @@ This is the pytorch implementation of **Aesthetic-Aware Image Style Transfer** [
 
 ## To run
 ```latex
-python runner.py
+python app.py
 ```
 ## Citation
 
