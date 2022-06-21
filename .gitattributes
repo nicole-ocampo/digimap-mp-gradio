@@ -3,6 +3,11 @@
 .bin filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
 *.pdf filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
 *.pth filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+img/P-16.pdf filter=lfs diff=lfs merge=lfs -text
+img/TC.pdf filter=lfs diff=lfs merge=lfs -text
+models/net_final.pth filter=lfs diff=lfs merge=lfs -text
+models/vgg_normalised.pth filter=lfs diff=lfs merge=lfs -text
+output/AAST/ct0_t0_cr0_result.png filter=lfs diff=lfs merge=lfs -text
 *.db filter=lfs diff=lfs merge=lfs -text
