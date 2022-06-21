@@ -1,6 +1,4 @@
-pytorch
 torchvision
 torch
 Pillow
-numpy
 gradio
