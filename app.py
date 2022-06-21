@@ -5,14 +5,11 @@ import os
 from test import test
 from PIL import Image
 
-
-
-
 def Args():
     import sys
     sys.argv=['']
     del sys
-    
+
     parser = argparse.ArgumentParser()
 
     # Default
