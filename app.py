@@ -12,12 +12,12 @@ def Args():
     parser = argparse.ArgumentParser()
 
     # Default
-    parser.add_argument('--content_dir', type=str, default='/app/content/')
-    parser.add_argument('--texture_dir', type=str, default='/app/texture/')
-    parser.add_argument('--color_dir', type=str, default='/app/color/')
-    parser.add_argument('--out_root', type=str, default='/app/output/')
-    parser.add_argument('--network', type=str, default='/app/models/net_final.pth')
-    parser.add_argument('--vgg', type=str, default='/app/models/vgg_normalised.pth')
+    parser.add_argument('--content_dir', type=str, default='content/')
+    parser.add_argument('--texture_dir', type=str, default='texture/')
+    parser.add_argument('--color_dir', type=str, default='color/')
+    parser.add_argument('--out_root', type=str, default='output/')
+    parser.add_argument('--network', type=str, default='models/net_final.pth')
+    parser.add_argument('--vgg', type=str, default='models/vgg_normalised.pth')
     parser.add_argument('--name', default='AAST')
 
     # Testing
@@ -27,19 +27,19 @@ def Args():
     return args
 
 def clear_folders():
-    dir = '/app/content/'
+    dir = 'content/'
     for f in os.listdir(dir):
         os.remove(os.path.join(dir, f))
 
-    dir = '/app/color/'
+    dir = 'color/'
     for f in os.listdir(dir):
         os.remove(os.path.join(dir, f))
 
-    dir = '/app/texture/'
+    dir = 'texture/'
     for f in os.listdir(dir):
         os.remove(os.path.join(dir, f))
     
-    dir = '/app/output/AAST'
+    dir = 'output/AAST'
     for f in os.listdir(dir):
         if os.path.isfile(f):
             os.remove(os.path.join(dir, f))
