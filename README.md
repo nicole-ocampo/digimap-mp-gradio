@@ -20,6 +20,10 @@ This is the pytorch implementation of **Aesthetic-Aware Image Style Transfer** [
 ```latex
 python app.py
 ```
+
+## Huggingspace
+https://huggingface.co/spaces/nicole-ocampo/digimap-mp
+
 ## Citation
 
 If you find this repo useful in your research, please consider citing the following papers:
