@@ -16,6 +16,11 @@ Paper link: http://hcsi.cs.tsinghua.edu.cn/Paper/Paper20/MM20-HUZHIYUAN.pdf
 
 This is the pytorch implementation of **Aesthetic-Aware Image Style Transfer** [Hu et al., MM2020].
 
+## Install missing modules, if applicable.
+```latex
+pip install gradio
+```
+
 ## To run
 ```latex
 python app.py
