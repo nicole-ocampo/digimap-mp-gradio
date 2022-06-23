@@ -58,5 +58,6 @@ def init_content(content_img, color_img, texture_img):
     
     return output_img
 
-demo = gr.Interface(init_content, inputs=[gr.inputs.Image(type='pil'),gr.inputs.Image(type='pil'),gr.inputs.Image(type='pil')], outputs="image")
-demo.launch(enable_queue=True)
+gr.close_all()
+demo = gr.Interface(init_content, inputs=[gr.inputs.Image(type='pil'),gr.inputs.Image(type='pil'),gr.inputs.Image(type='pil')], outputs="image", enable_queue=True)
+demo.launch()
