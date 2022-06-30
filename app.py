@@ -5,6 +5,22 @@ import os
 from test import test
 from PIL import Image
 
+title = "Aesthetic-Aware Model-Optimisation-Based Style Transfer"
+description = """
+<center>
+<div style="width: 500px;">
+Transfer texture and color from your reference photos to a separate image! Use the following as inputs:
+<ul>
+  <li><b>Content Image</b>: The image to which the style will be transferred to</li>
+  <li><b>Color Reference</b>: Reference image for your colors</li>
+  <li><b>Texture Reference</b>: Reference image for your textures</li>
+</ul>
+</div>
+</center>
+"""
+
+article = "Check out [the original paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413853) that this demo is based off of."
+
 def Args():
     import sys
     sys.argv=['']
@@ -59,5 +75,5 @@ def init_content(content_img, color_img, texture_img):
     return output_img
 
 gr.close_all()
-demo = gr.Interface(init_content, inputs=[gr.inputs.Image(type='pil'),gr.inputs.Image(type='pil'),gr.inputs.Image(type='pil')], outputs="image", enable_queue=True)
+demo = gr.Interface(init_content, inputs=[gr.inputs.Image(type='pil'),gr.inputs.Image(type='pil'),gr.inputs.Image(type='pil')], outputs="image", enable_queue=True, title = title, description = description, article = article) 
 demo.launch()
