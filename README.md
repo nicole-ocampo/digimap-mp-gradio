@@ -1,8 +1,5 @@
 # Aesthetic-Aware Image Style Transfer
-
-by Zhiyuan Hu, Jia Jia, Bei Liu, Yaohua Bu and Jianlong Fu
-Paper link: http://hcsi.cs.tsinghua.edu.cn/Paper/Paper20/MM20-HUZHIYUAN.pdf
-
+Paper link: http://hcsi.cs.tsinghua.edu.cn/Paper/Paper20/MM20-HUZHIYUAN.pdf <br>
 This is the pytorch implementation of **Aesthetic-Aware Image Style Transfer** [Hu et al., MM2020].
 
 ## Dependencies
@@ -23,7 +20,7 @@ python app.py
 https://huggingface.co/spaces/nicole-ocampo/digimap-mp
 
 ## Citation
-Original research and can be referenced through the following:
+Original research and can be cited by:
 ```latex
 @inproceedings{hu2020aesthetic,
   title={Aesthetic-Aware Image Style Transfer},
