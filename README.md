@@ -1,20 +1,13 @@
----
-title: Aesthetic-Aware Image Style Transfer
-emoji: 🛋
-colorFrom: gray
-colorTo: yellow
-sdk: gradio
-app_file: app.py
-pinned: false
-license: mit
----
 # Aesthetic-Aware Image Style Transfer
 
 by Zhiyuan Hu, Jia Jia, Bei Liu, Yaohua Bu and Jianlong Fu
-
 Paper link: http://hcsi.cs.tsinghua.edu.cn/Paper/Paper20/MM20-HUZHIYUAN.pdf
 
 This is the pytorch implementation of **Aesthetic-Aware Image Style Transfer** [Hu et al., MM2020].
+
+## Dependencies
+- Gradio
+- PyTorch
 
 ## Install missing modules, if applicable.
 ```latex
@@ -26,13 +19,11 @@ pip install gradio
 python app.py
 ```
 
-## Huggingface spaces
+## Deployment
 https://huggingface.co/spaces/nicole-ocampo/digimap-mp
 
 ## Citation
-
-If you find this repo useful in your research, please consider citing the following papers:
-
+Original research and can be referenced through the following:
 ```latex
 @inproceedings{hu2020aesthetic,
   title={Aesthetic-Aware Image Style Transfer},
@@ -42,7 +33,3 @@ If you find this repo useful in your research, please consider citing the follow
   year={2020}
 }
 ```
-
-## Contact
-
-If you have any questions or suggestions about this paper, feel free to contact me (z8hu@ucsd.edu).
